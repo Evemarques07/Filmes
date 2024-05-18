@@ -1,0 +1,64 @@
+body{
+    background-image: url("/static/media/fundo.ccd97d3693d401a85c1b.png");
+}
+.VerMais {
+    /* margin: 20px auto; */
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: ease-in-out 0.3s; 
+}
+
+.VerMais:hover {
+    background-color: #45a049; 
+}
+
+#formulario {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 90vw;
+    margin: 0px auto;
+    border-radius: 30%;
+}
+
+img{
+    border-radius: 8px;
+    max-width: 200px;
+}
+p{
+    color: rgb(151, 75, 75);
+}
+h2{
+    color: rgb(194, 200, 201);
+}
+
+.nome{
+    color: #fff;
+}
+
+.spanNome{
+    font-size: 16px;
+    color: rgb(194, 200, 201);
+}
+.spanEspecie{
+    color: rgb(194, 200, 201);
+}
+.spanStatus{
+    color: rgb(194, 200, 201);
+}
+.spanLoc{
+    color: rgb(194, 200, 201);
+}
